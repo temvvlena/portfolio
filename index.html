@@ -15,6 +15,24 @@
 	<link rel="icon" href="favicon.ico">
 	<!-- Font CSS -->
 	<link href="https://fonts.googleapis.com/css2?family=Manrope&family=Oswald&display=swap" rel="stylesheet">
+	<script>
+	  (function(n,i,v,r,s,c,x,z){x=window.AwsRumClient={q:[],n:n,i:i,v:v,r:r,c:c};window[n]=function(c,p){x.q.push({c:c,p:p});};z=document.createElement('script');z.async=true;z.src=s;document.head.insertBefore(z,document.head.getElementsByTagName('script')[0]);})(
+	    'cwr',
+	    'd8769b2f-cb26-4e33-bd9f-18fdf0d37988',
+	    '1.0.0',
+	    'us-east-1',
+	    'https://client.rum.us-east-1.amazonaws.com/1.5.x/cwr.js',
+	    {
+	      sessionSampleRate: 1,
+	      guestRoleArn: "arn:aws:iam::611240848927:role/RUM-Monitor-us-east-1-611240848927-5371888835561-Unauth",
+	      identityPoolId: "us-east-1:4b564ead-39ad-48b1-b7e8-629c50ed962e",
+	      endpoint: "https://dataplane.rum.us-east-1.amazonaws.com",
+	      telemetries: ["performance","errors","http"],
+	      allowCookies: true,
+	      enableXRay: false
+	    }
+	  );
+	</script>
 </head>
 
 <body id="page-top">
